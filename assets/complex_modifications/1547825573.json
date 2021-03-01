@@ -1,0 +1,140 @@
+{
+	"title": "Norwegian chars",
+	"rules": [
+		{
+			"description": "Option + ; => ø",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "semicolon",
+						"modifiers": {
+							"mandatory": [
+								"option"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "o",
+							"modifiers": [
+								"option"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "Option + [ => å",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "open_bracket",
+						"modifiers": {
+							"mandatory": [
+								"option"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "a",
+							"modifiers": [
+								"option"
+							]
+						}
+					]
+				}
+			]
+    },
+    {
+			"description": "cmd + ' => æ",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "quote",
+						"modifiers": {
+							"mandatory": [
+								"command"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "quote",
+							"modifiers": [
+								"option"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "cmd + [ => å",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "open_bracket",
+						"modifiers": {
+							"mandatory": [
+								"command"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "a",
+							"modifiers": [
+								"option"
+							]
+						}
+					]
+				}
+			]
+    },
+    {
+			"description": "cmd + ; => ø",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "semicolon",
+						"modifiers": {
+							"mandatory": [
+								"command"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "o",
+							"modifiers": [
+								"option"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
